@@ -10,5 +10,5 @@ The setup environment for this project is the following:
 - __matplotlib__
 - __seaborn__
 - __scikit-learn__
-
+- __datasets__
 The virtual environment used is __Jupyter__
