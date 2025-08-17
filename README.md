@@ -6,4 +6,9 @@ Classification Model for CSE151A Summer Session 2.
 The setup environment for this project is the following:
 
 - __Python 3.9__
+- __numpy__
+- __matplotlib__
+- __seaborn__
+- __scikit-learn__
 
+The virtual environment used is __Jupyter__
