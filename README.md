@@ -13,3 +13,5 @@ The setup environment for this project is the following:
 - __datasets__
   
 The virtual environment used is __Jupyter__
+
+### Link to Jupyter Notebook: [CSE151A_Project](https://github.com/c4ngo/CSE151A-Project/blob/Milestone2/CSE151A_Project.ipynb)
