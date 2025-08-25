@@ -14,7 +14,7 @@ The setup environment for this project is the following:
   
 The virtual environment used is __Jupyter__
 
-### Link to Jupyter Notebook: [CSE151A_Project](https://github.com/c4ngo/CSE151A-Project/blob/Milestone2/CSE151A_Project.ipynb)
+### Link to Jupyter Notebook (Milestone 2): [CSE151A_Project](https://github.com/c4ngo/CSE151A-Project/blob/Milestone2/CSE151A_Project.ipynb)
 
 ### MILESTONE 3 UPDATES:
 
@@ -34,4 +34,4 @@ Testing F1 Score 81%
 
 Next steps to improve classification score will be testing our model with SVC and Decision Trees 
 
-### Current Link to Juypter Notebook [CSE151A_Project](https://github.com/c4ngo/CSE151A-Project/blob/Milestone3/CSE151A_Project.ipynb)
+### Current Link to Juypter Notebook (Milestone 3) [CSE151A_Project](https://github.com/c4ngo/CSE151A-Project/blob/Milestone3/CSE151A_Project.ipynb)
