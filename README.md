@@ -34,6 +34,10 @@ Training F1 Score: 82%
 Testing Accuracy: 80%
 Testing F1 Score: 81%
 
+Conclusion:
+
+Our toxic classifcation model performed relatively well given the dataset with alpha = 10.0 and threshold = 0.5. Our training and testing data both had accuracy and f1 score of above 80%. Changing the hyperparameters did not improve our 1st model significantly. In order to improve our model furthermore, we may consider SVMs or Decision Trees. 
+
 Next steps to improve classification score will be testing our model with SVC and Decision Trees.
 
 ### Current Link to Juypter Notebook (Milestone 3) [CSE151A_Project](https://github.com/c4ngo/CSE151A-Project/blob/Milestone3/CSE151A_Project.ipynb)
