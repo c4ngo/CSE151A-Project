@@ -28,9 +28,11 @@ We trained our first model using Multinomial Naive Bayes on an alpha of 0.1 with
 The results of this model based on the classification report was:
 
 Training Accuracy 82%
+
 Training F1 Score 82%
 
 Testing Accuracy 80%
+
 Testing F1 Score 81%
 
 Next steps to improve classification score will be testing our model with SVC and Decision Trees 
