@@ -26,6 +26,7 @@ Added new feature which is a threshold on the _toxic_ attribute. If a data point
 
 We trained our first model using Multinomial Naive Bayes on an alpha of 0.1 with a feature threshold of 0.5. 
 The results of this model based on the classification report was:
+
 Training Accuracy 82%
 Training F1 Score 82%
 
