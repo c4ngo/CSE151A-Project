@@ -26,7 +26,7 @@ Added major preprocessing data such as:
 Added new feature which is a threshold on the _toxic_ attribute. If a data point surpasses a threshold, the data point will be grouped to toxic comments. 
 
 We trained our first model using _Multinomial Naive Bayes_ with the laplace smoothing hyperparameter called alpha and with a feature threshold of 0.5. 
-The results of this model with alpha = 0.1 and threshold = 0.5 is given by this classification report:
+The results of this model with alpha = 10.0 and threshold = 0.5 is given by this classification report:
 
 Training Accuracy: 82%
 Training F1 Score: 82%
