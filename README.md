@@ -49,7 +49,7 @@ Next steps to improve classification score will be testing our model with SVC an
 
 For our second model, we implemented a pipeline combining TF-IDF for text vectorization, Truncated SVD for dimensionality reduction, and a Logistic Regression classifier. Hyperparameter tuning was performed using GridSearchCV to find the optimal number of SVD components and the best regularization parameter (C) for the classifier.
 
-##### Fitting Graph Analysis
+#### Fitting Graph Analysis
 
 The Logistic Regression with SVD model demonstrates a **good fit**, positioning it in the optimal region of a fitting graph where both bias and variance are low.
 
@@ -58,7 +58,7 @@ The Logistic Regression with SVD model demonstrates a **good fit**, positioning 
 
 This combination of low bias and low variance places the model in the "Good Balance" zone of the fitting graph.
 
-##### Conclusion
+#### Conclusion
 
 The second model, a Logistic Regression classifier enhanced with Truncated SVD, proved to be highly effective for this text classification task. The grid search identified the optimal hyperparameters as `C=5` for logistic regression and `n_components=1000` for SVD, resulting in a peak cross-validated F1-score of **83.08%**.
 
@@ -69,7 +69,7 @@ The final model achieved a **validation accuracy of 84.44% and an F1-score of 83
 *   **Exploring More Complex Models**: To potentially capture more complex, non-linear patterns, we could train advanced models like Support Vector Machines (SVM) or gradient-boosted trees (e.g., XGBoost).
 *   **Training on More Data**: While trained on a balanced 100,000-comment dataset, increasing the size of this balanced set could further improve the model's robustness and generalization capabilities.
 
-##### Predictions on the Validation Set
+#### Predictions on the Validation Set
 
 The following are the prediction results from the validation dataset, which contained 20,000 comments (10,000 toxic, 10,000 non-toxic):
 
