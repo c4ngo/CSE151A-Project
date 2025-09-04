@@ -2,6 +2,7 @@
 Classification Model for CSE151A Summer Session 2. 
 
 ### Link to dataset: [civil_comments](https://huggingface.co/datasets/google/civil_comments)
+### Link to milestones: [milestones](https://github.com/c4ngo/CSE151A-Project/blob/main/milestones.md)
 
 The setup environment for this project is the following:
 
@@ -13,6 +14,8 @@ The setup environment for this project is the following:
 - __datasets__
   
 The virtual environment used is __Jupyter__
+
+
 
 # CSE151A Final Report
 ##### Pranshu Gupta, Shashwat Dudeja, Charlie Ngo
