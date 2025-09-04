@@ -225,11 +225,12 @@ Based on the project's progress, the next logical models to explore are:
 ## Statements of Collaboration
 
 ### Charlie Ngo:
-
+For Milestone 1, I created the abstract and finding the dataset to use. For Milestone 2, I contributed to the data exploration such as the null and duplicate values. I also generated some plots. For Milestone 3, I discussed which model to use for our Model 1 and made the write-up for the read-me. For Milestone 4, I created our second model and contributed to the Final Report up to the Model section.
 ### Shashwat Dudeja:
 I worked on the write-up for Milestone 4. Discussed with the group about the direction of our project and our decisions over choice of model. Gave feedback and looked over write-ups for Milestone 3 and helped in writing README for Milestone 2. Also helped in coding Data Exploration section and added few markdown sections in the notebook.
 
 ### Pranshu Gupta:
+
 
 
 
