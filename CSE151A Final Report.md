@@ -207,7 +207,7 @@ We could further investigate this theory by perhaps looking at what TF-IDF featu
 
 The second model, a Logistic Regression classifier enhanced with Truncated SVD, proved to be highly effective for this text classification task. The grid search identified the optimal hyperparameters as `C=5` for logistic regression and `n_components=1000` for SVD, resulting in a peak cross-validated F1-score of **83.08%**.
 
-The final model achieved a **validation accuracy of 84.44% and an F1-score of 83.75%**. An analysis of the confusion matrix reveals that the model correctly identified 8,000 toxic and 8,881 non-toxic comments, showing a strong ability to distinguish between the two classes.
+The final model achieved a **validation accuracy of 84.44% and an F1-score of 83.75%**. An analysis of the confusion matrix reveals that the model correctly identified 8,020 toxic and 8,867 non-toxic comments, showing a strong ability to distinguish between the two classes.
 
 **Potential Improvements:**
 *   **Advanced Feature Engineering**: Using more sophisticated text representations like Word2Vec or GloVe embeddings could help the model better grasp semantic context and nuances in language.
@@ -230,5 +230,6 @@ Based on the project's progress, the next logical models to explore are:
 I worked on the write-up for Milestone 4. Discussed with the group about the direction of our project and our decisions over choice of model. Gave feedback and looked over write-ups for Milestone 3 and helped in writing README for Milestone 2. Also helped in coding Data Exploration section and added few markdown sections in the notebook.
 
 ### Pranshu Gupta:
+
 
 
