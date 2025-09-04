@@ -176,7 +176,7 @@ Figure 7: Confusion. Matrix for 2nd Model
 *   **Incorrect Predictions: 3,113**
     *   **False Positives (Incorrectly identified as toxic)**: 1,133
     *   **False Negatives (Incorrectly identified as non-toxic)**: 1,980
-
+___
 ## Discussion
 
 ### Data Exploration
@@ -202,7 +202,7 @@ For our second model, we decided to apply Truncated SVD on our data as our unsup
 Our 2nd model performed a little better than our 1st (~84% to ~80%) which was interesting. It was much better at classifying non toxic comments but slightly worse at classifying toxic comments (We can see this in the confusion matrices of the two models). Multinomial Naive Bayes might have performed a little better at positive classifications as similar words are often used in toxic comments. A curse word or a word like 'hate' would rarely ever be in a non toxic comment and thus, its prior probability helps in better classifying it as toxic. Whereas with non-toxic comments, it might not be as easy to choose specific words that immediately indicate what kind of comment it is. Maybe truncated SVD condensed those patterns or those kinds of words used in non toxic comments into certain features better which allowed it to be better at negative classifications. 
 
 We could further investigate this theory by perhaps looking at what TF-IDF features have the highest prior probabilities in our first model. 
-
+___
 ## Conclusion
 
 The second model, a Logistic Regression classifier enhanced with Truncated SVD, proved to be highly effective for this text classification task. The grid search identified the optimal hyperparameters as `C=5` for logistic regression and `n_components=1000` for SVD, resulting in a peak cross-validated F1-score of **83.08%**.
@@ -221,7 +221,7 @@ Based on the project's progress, the next logical models to explore are:
 1.  **Support Vector Classifier (SVC)**: SVCs excel in high-dimensional feature spaces like the ones created by TF-IDF. They are powerful because they can find the optimal hyperplane that separates classes, allowing them to model complex decision boundaries effectively. This makes them a strong candidate for potentially outperforming Logistic Regression.
 
 2.  **Decision Trees and Ensemble Models**: While individual decision trees can be prone to overfitting, they are the building blocks for highly effective ensemble methods like **Random Forests** or **Gradient Boosting Machines (e.g., XGBoost, LightGBM)**. These models are industry standards for classification tasks because they can capture non-linear relationships and feature interactions, often leading to state-of-the-art performance.
-
+___
 ## Statements of Collaboration
 
 ### Charlie Ngo:
@@ -230,6 +230,7 @@ For Milestone 1, I created the abstract and finding the dataset to use. For Mile
 I worked on the write-up for Milestone 4. Discussed with the group about the direction of our project and our decisions over choice of model. Gave feedback and looked over write-ups for Milestone 3 and helped in writing README for Milestone 2. Also helped in coding Data Exploration section and added few markdown sections in the notebook.
 
 ### Pranshu Gupta:
+
 
 
 
