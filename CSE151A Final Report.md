@@ -119,14 +119,20 @@ Our first model was a **Multinomial Naive Bayes** algorithm on the TF-IDF featur
 Figure 4: F1-Score, Precision, Recall and Accuracy of 1st Model on Training and Validation sets
 
 **Training Set:**
-<u>F-1 Score:</u> 0.8205
-<u>Accuracy:</u> 81.49%
+
+<ins>F-1 Score:</ins> 0.8205
+
+<ins>Accuracy:</ins> 81.49%
 
 **Validation Set:**
-<u>Precision:</u> 0.78
-<u>Recall:</u> 0.84
-<u>F-1 Score:</u> 0.8113
-<u>Accuracy:</u> 80.39%
+
+<ins>Precision:</ins> 0.78
+
+<ins>Recall:</ins> 0.84
+
+<ins>F-1 Score:</ins> 0.8113
+
+<ins>Accuracy:</ins> 80.39%
 
 ![Confusion Matrix of 1st model](./images/NBConfusionMatrix.png)
 
@@ -149,12 +155,16 @@ For our second model, we performed **Truncated SVD** on the TF-IDF features and 
 Figure 6: F1-Score, Precision, Recall and Accuracy of 2nd Model on Training and Validation sets
 
 **Training Set:**
-<u>F-1 Score:</u> 0.8407
-<u>Accuracy:</u> 84.83%
+
+<ins>F-1 Score:</ins> 0.8407
+
+<ins>Accuracy:</ins> 84.83%
 
 **Validation Set:**
-<u>F-1 Score:</u> 0.8375
-<u>Accuracy:</u> 84.44%
+
+<ins>F-1 Score:</ins> 0.8375
+
+<ins>Accuracy:</ins> 84.44%
 
 ![Confusion Matrix of 2nd model](./images/Model2_ConfusionMatrix.png)
 
@@ -220,4 +230,5 @@ Based on the project's progress, the next logical models to explore are:
 I worked on the write-up for Milestone 4. Discussed with the group about the direction of our project and our decisions over choice of model. Gave feedback and looked over write-ups for Milestone 3 and helped in writing README for Milestone 2. Also helped in coding Data Exploration section and added few markdown sections in the notebook.
 
 ### Pranshu Gupta:
+
 
