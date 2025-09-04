@@ -19,7 +19,7 @@ The setup environment for this project is the following:
 The virtual environment used is __Jupyter__
 
 # CSE151A Final Report
-___
+
 ## Introduction
 One of the best aspects of social media and online platforms is the ability for users to communicate and interact. However, this aspect comes with a problem with managing __toxic and harmful language__. Most platforms such as Instagram, Tiktok, and popular online videogames use an automatic profanity filter that blocks certain words. Although these filters can block explicit language they __fail to detect statements that have implied or subtle toxicity__. 
 
