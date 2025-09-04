@@ -1,5 +1,7 @@
 # CSE151A-Project
-Classification Model for CSE151A Summer Session 2. 
+##### Pranshu Gupta, Shashwat Dudeja, Charlie Ngo
+
+Toxic Classification Model for CSE151A Summer Session 2. 
 
 ### Link to dataset: [civil_comments](https://huggingface.co/datasets/google/civil_comments)
 ### Link to milestones: [milestones](https://github.com/c4ngo/CSE151A-Project/blob/main/milestones.md)
@@ -12,13 +14,11 @@ The setup environment for this project is the following:
 - __seaborn__
 - __scikit-learn__
 - __datasets__
-  
+- __pandas__
+- __re__
 The virtual environment used is __Jupyter__
 
-
-
 # CSE151A Final Report
-##### Pranshu Gupta, Shashwat Dudeja, Charlie Ngo
 ___
 ## Introduction
 One of the best aspects of social media and online platforms is the ability for users to communicate and interact. However, this aspect comes with a problem with managing __toxic and harmful language__. Most platforms such as Instagram, Tiktok, and popular online videogames use an automatic profanity filter that blocks certain words. Although these filters can block explicit language they __fail to detect statements that have implied or subtle toxicity__. 
